@@ -5,7 +5,9 @@ require 'minitest/autorun'
 
 
 Given(/^a user goes to Amazon$/) do
-  @browser = Watir::Browser.new :chrome
+  chromedriver_path = File.join(File.absolute_path('/usr/local/bin/', File.dirname(__FILE__)),"chromedriver")
+  Selenium::WebDriver::Chrome.driver_path = chromedriver_path
+  @browser = Watir::Browser.new :chrome 
   @browser.goto "www.facebook.com"
 end
 
