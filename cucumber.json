@@ -1,0 +1,70 @@
+[
+  {
+    "uri": "features/Amazon_Search.feature",
+    "id": "amazon-search-functionality",
+    "keyword": "Feature",
+    "name": "Amazon Search Functionality",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "amazon-search-functionality;users-can-search-for-a-specific-item-on-amazon",
+        "keyword": "Scenario",
+        "name": "Users can search for a specific item on Amazon",
+        "description": "",
+        "line": 3,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "a user goes to Amazon",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/amazon_search.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4271268517
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "they enter login for \"tester.bizilia@gmail.com\"",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/amazon_search.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 329592496
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "they type password \"bizilia87\"",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/amazon_search.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 283611914
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "amazon should return results for \"Vitaliy\"",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/amazon_search.rb:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3918097919
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
