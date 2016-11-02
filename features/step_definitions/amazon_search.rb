@@ -5,7 +5,7 @@ require 'minitest/autorun'
 
 
 Given(/^a user goes to Amazon$/) do
-  @browser = Watir::Browser.new :ff
+  @browser = Watir::Browser.new :chrome
   @browser.goto "www.facebook.com"
 end
 
