@@ -26,5 +26,6 @@ Then(/^amazon should return results for "([^"]*)"$/) do |arg|
   @browser.div(:class => "innerWrap").wait_until_present
   page_ob = @browser.input(:placeholder => "Search Facebook").exists?
   assert(page_ob == true)
+  @browser.quit
 
 end
