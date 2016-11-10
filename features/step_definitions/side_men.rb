@@ -4,9 +4,9 @@ require 'minitest/autorun'
 
 
 Given(/^user opens testdemo$/) do
-  firefox_path = File.join(File.absolute_path('/usr/local/bin/', File.dirname(__FILE__)),"geckodriver")
-  Selenium::WebDriver::Firefox.driver_path = firefox_path
-  @browser = Watir::Browser.new :ff
+  chromedriver_path = File.join(File.absolute_path('/usr/local/bin/', File.dirname(__FILE__)),"chromedriver")
+  Selenium::WebDriver::Firefox.driver_path = chromedriver_path
+  @browser = Watir::Browser.new :chrome
   @browser.goto "testdemo.easyerp.com"
 end
 
@@ -29,12 +29,10 @@ end
 When(/^user clicks on sign_in button$/) do
   Watir::Wait.until { @browser.a(:text => "Sign In").visible? }
   @browser.a(:text => "Sign In").click
-  Watir::Wait.until { @browser.title == "Custom Dashboard" }
 
 end
 
 When(/^user minimize left menu$/) do
-
+  sleep(5)
   @browser.div(:xpath => "//div[@class='sidebarToggler']").when_present.click
-
 end
