@@ -8,6 +8,7 @@ Given(/^user opens pricelists tab$/) do
 end
 
 When(/^user click on New pricelist$/) do
+  sleep(4)
   @browser.a(:id => "top-bar-createBtn").click
   sleep(5)
 end
@@ -33,4 +34,47 @@ end
 
 Then(/^error about empty price list code appears$/) do
   Watir::Wait.until { @browser.div(:text => "Price List Code field can not be empty").visible? }
+end
+
+When(/^user changes currency to "([^"]*)"$/) do |arg|
+  @browser.a(:id => "currencyDd").click
+  sleep(2)
+  @browser.li(:text => "#{arg}")
+
+
+end
+
+When(/^user chooses "([^"]*)" in supplier cost section$/) do |arg|
+  sleep(2)
+  @browser.label(:text => "#{arg}").click
+end
+
+When(/^user checks all pricelists$/) do
+  sleep(2)
+  @browser.span(:xpath => ".//th[1]/label/span").click
+
+end
+
+When(/^user click on "([^"]*)" button$/) do |arg|
+  @browser.a(:text => "#{arg}").click
+end
+
+Then(/^verify that list is empty$/) do
+  Watir::Wait.until { !@browser.input(:xpath => "//input[@type='checkbox']").visible? }
+
+end
+
+When(/^user accepts alert$/) do
+  @browser.alert.ok
+end
+
+When(/^user one pricelist$/) do
+  sleep(2)
+  @browser.td(:xpath => ".//*[@id='listTable']/tr[1]/td[2]").click
+end
+
+When(/^user clicks on price list$/) do
+  sleep(2)
+  @browser.td(:xpath => ".//*[@id='listTable']/tr[1]/td[2]").click
+
 end

@@ -55,4 +55,5 @@ When(/^user deletes all checked products$/) do
   sleep(10)
   @browser.alert.ok
   sleep(10)
+  @browser.close
 end
