@@ -25,6 +25,7 @@ end
 When(/^user clicks on create button$/) do
   @browser.span(:text => "Create").click
   sleep(5)
+
 end
 
 Then(/^error about empty fields appears$/) do
@@ -69,12 +70,22 @@ When(/^user accepts alert$/) do
 end
 
 When(/^user one pricelist$/) do
-  sleep(2)
-  @browser.td(:xpath => ".//*[@id='listTable']/tr[1]/td[2]").click
+  sleep(4)
+  @browser.input(:xpath => "//input[@type='checkbox']").click
 end
 
 When(/^user clicks on price list$/) do
   sleep(2)
-  @browser.td(:xpath => ".//*[@id='listTable']/tr[1]/td[2]").click
+  @browser.td(:xpath => ".//*[@id='listTable']/tr/td[2]").click
 
+end
+
+Then(/^browser is closing$/) do
+  sleep(2)
+  @browser.close
+end
+
+When(/^user checks one item$/) do
+  sleep(2)
+  @browser.span(:xpath => ".//*[@id='listTable']/tr/td[1]/label/span").click
 end

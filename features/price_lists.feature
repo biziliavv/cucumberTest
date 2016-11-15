@@ -14,6 +14,7 @@ Feature: Price list checking
     When user chooses "Yes" in supplier cost section
     When user changes currency to "UAH"
     When user clicks on create button
+    Then browser is closing
 
   Scenario: Empty creation form
     Given user opens pricelists tab
@@ -25,6 +26,7 @@ Feature: Price list checking
     When user click on New pricelist
     When user clicks on create button
     Then error about empty fields appears
+    Then browser is closing
 
   Scenario: Empty price list code
     Given user opens pricelists tab
@@ -37,6 +39,7 @@ Feature: Price list checking
     When user fill in to pricelist name "testname"
     When user clicks on create button
     Then error about empty price list code appears
+    Then browser is closing
 
   Scenario: Removing one price list
     Given user opens pricelists tab
@@ -44,10 +47,11 @@ Feature: Price list checking
     When user types password "thinkmobiles2015"
     When user choose db as "sergey"
     When user clicks on sign_in button
-    When user one pricelist
+    When user checks one item
     When user click on "Delete" button
     When user accepts alert
     Then verify that list is empty
+    Then browser is closing
 
 
   Scenario: Removing all price lists
@@ -66,6 +70,7 @@ Feature: Price list checking
     When user click on "Delete" button
     When user accepts alert
     Then verify that list is empty
+    Then browser is closing
 
     Scenario: Delete inside of price list
       Given user opens pricelists tab
@@ -83,5 +88,5 @@ Feature: Price list checking
       When user one pricelist
       When user click on "Delete" button
       When user accepts alert
-      Then verify that list is empty
+      Then browser is closing
 

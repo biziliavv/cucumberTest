@@ -27,6 +27,7 @@ When(/^user choose db as "([^"]*)"$/) do |arg|
 end
 
 When(/^user clicks on sign_in button$/) do
+  sleep(3)
   Watir::Wait.until { @browser.a(:text => "Sign In").visible? }
   @browser.a(:text => "Sign In").click
 
