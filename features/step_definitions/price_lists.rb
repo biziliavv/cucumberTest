@@ -89,3 +89,16 @@ When(/^user checks one item$/) do
   sleep(2)
   @browser.span(:xpath => ".//*[@id='listTable']/tr/td[1]/label/span").click
 end
+
+When(/^user logs in to EasyErp$/) do
+  Watir::Wait.until { @browser.title == "Login" }
+  @browser.text_field(:name => "ulogin").set "yana.gusti"
+  @browser.text_field(:name => "upass").set "thinkmobiles2015"
+
+  @browser.span(:class => "selectedDb").click
+  @browser.li(:text => "sergey (144.76.56.111)").click
+  sleep(2)
+  Watir::Wait.until { @browser.a(:text => "Sign In").visible? }
+  @browser.a(:text => "Sign In").click
+  sleep(3)
+end

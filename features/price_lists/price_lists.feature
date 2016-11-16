@@ -3,10 +3,7 @@ Feature: Price list checking
 
   Scenario: Correct create new price lists checking
     Given user opens pricelists tab
-    When user types "yana.gusti"
-    When user types password "thinkmobiles2015"
-    When user choose db as "sergey"
-    When user clicks on sign_in button
+    When user logs in to EasyErp
     When user minimize left menu
     When user click on New pricelist
     When user fill in to pricelist name "testname"
@@ -18,10 +15,7 @@ Feature: Price list checking
 
   Scenario: Empty creation form
     Given user opens pricelists tab
-    When user types "yana.gusti"
-    When user types password "thinkmobiles2015"
-    When user choose db as "sergey"
-    When user clicks on sign_in button
+    When user logs in to EasyErp
     When user minimize left menu
     When user click on New pricelist
     When user clicks on create button
@@ -30,10 +24,7 @@ Feature: Price list checking
 
   Scenario: Empty price list code
     Given user opens pricelists tab
-    When user types "yana.gusti"
-    When user types password "thinkmobiles2015"
-    When user choose db as "sergey"
-    When user clicks on sign_in button
+    When user logs in to EasyErp
     When user minimize left menu
     When user click on New pricelist
     When user fill in to pricelist name "testname"
@@ -43,10 +34,7 @@ Feature: Price list checking
 
   Scenario: Removing one price list
     Given user opens pricelists tab
-    When user types "yana.gusti"
-    When user types password "thinkmobiles2015"
-    When user choose db as "sergey"
-    When user clicks on sign_in button
+    When user logs in to EasyErp
     When user checks one item
     When user click on "Delete" button
     When user accepts alert
@@ -56,10 +44,7 @@ Feature: Price list checking
 
   Scenario: Removing all price lists
     Given user opens pricelists tab
-    When user types "yana.gusti"
-    When user types password "thinkmobiles2015"
-    When user choose db as "sergey"
-    When user clicks on sign_in button
+    When user logs in to EasyErp
     When user click on New pricelist
     When user fill in to pricelist name "testname"
     When user fill in to pricelist code "code123"
@@ -74,10 +59,7 @@ Feature: Price list checking
 
     Scenario: Delete inside of price list
       Given user opens pricelists tab
-      When user types "yana.gusti"
-      When user types password "thinkmobiles2015"
-      When user choose db as "sergey"
-      When user clicks on sign_in button
+      When user logs in to EasyErp
       When user click on New pricelist
       When user fill in to pricelist name "testname"
       When user fill in to pricelist code "code123"
