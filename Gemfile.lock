@@ -75,6 +75,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport
   cucumber
   gecko-ruby
   minitest
