@@ -1,7 +1,9 @@
 require 'chromedriver/helper'
+require 'headless'
 
 Given(/^user opens pricelists tab$/) do
-
+  headless = Headless.new
+  headless.start
   @browser = Watir::Browser.new :chrome
   @browser.goto "http://testdemo.easyerp.com/#easyErp/priceLists/list"
 end
@@ -82,6 +84,7 @@ end
 Then(/^browser is closing$/) do
   sleep(2)
   @browser.close
+  headless.destroy
 end
 
 When(/^user checks one item$/) do
