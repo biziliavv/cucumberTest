@@ -10,6 +10,17 @@ Given(/^user opens Products tab$/) do
   @browser.goto "http://testdemo.easyerp.com/#easyErp/Products/list"
 end
 
+When(/^user sorts the products on left menu$/) do
+  sleep(5)
+  @browser.a(:id => "sortBy").visible?
+  @browser.a(:id => "sortBy").click
+  sleep(3)
+  @browser.span(:text => "Name").click
+  sleep(3)
+  @browser.span(:text => "Name").click
+  sleep(3)
+  @browser.quit
+end
 
 When(/^user clicks on New button to create new product$/) do
   Watir::Wait.until { @browser.title == "PRODUCTS" }
@@ -20,6 +31,13 @@ end
 When(/^user enters Product name "([^"]*)"$/) do |arg|
   @browser.text_field(:id => "product").exists?
   @browser.text_field(:id => "product").set "#{arg}"
+end
+
+
+When(/^user uploads the picture$/) do
+  @browser.file_field(:id, 'inputImg').set "/home/michael/sorticon.png"
+  sleep(5)
+  @browser.span(:text => "Crop").click
 end
 
 
