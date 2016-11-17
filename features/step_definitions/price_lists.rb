@@ -1,7 +1,7 @@
 require 'selenium-webdriver'
 
 Given(/^user opens pricelists tab$/) do
-  @browser = Watir::Browser.new :ff
+  @browser = Watir::Browser.new :chrome
   @browser.goto "http://testdemo.easyerp.com/#easyErp/priceLists/list"
 end
 
