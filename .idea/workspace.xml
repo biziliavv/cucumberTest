@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b460695-556b-4445-9293-342a7e5a8935" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/delete_product.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/step_definitions/delete_product.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/step_definitions/switch_to_grid_list.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/switch_to_list_view.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/EasyERP/Inventory/products.feature" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/features/create_new_product.feature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/features/delete_product.feature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/features/step_definitions/delete_product.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/features/step_definitions/switch_to_grid_list.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/features/switch_to_list_view.feature" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/features/price_lists/price_lists.feature" afterPath="$PROJECT_DIR$/features/EasyERP/Inventory/price_lists.feature" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/features/step_definitions/create_new_product.rb" afterPath="$PROJECT_DIR$/features/step_definitions/Inventory/products.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/cucumberTest.iml" afterPath="$PROJECT_DIR$/.idea/cucumberTest.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/create_new_product.feature" afterPath="$PROJECT_DIR$/features/create_new_product.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/create_new_product.rb" afterPath="$PROJECT_DIR$/features/step_definitions/create_new_product.rb" />
     </list>
     <ignored path="cucumberTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,10 +29,12 @@
     <SUITE FILE_PATH="coverage/cucumberTest@Amazon_Search_feature.coverage" NAME="Amazon_Search.feature Coverage Results" MODIFIED="1478794227272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
     <SUITE FILE_PATH="coverage/cucumberTest@side_menu_feature.coverage" NAME="side_menu.feature Coverage Results" MODIFIED="1478794273162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
     <SUITE FILE_PATH="coverage/cucumberTest@delete_product_feature.coverage" NAME="delete_product.feature Coverage Results" MODIFIED="1478956965538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
+    <SUITE FILE_PATH="coverage/cucumberTest@edit_product_feature.coverage" NAME="edit_product.feature Coverage Results" MODIFIED="1479052106582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
     <SUITE FILE_PATH="coverage/cucumberTest@amazon_search.coverage" NAME="amazon_search Coverage Results" MODIFIED="1478785266051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/step_definitions" MODULE_NAME="cucumberTest" />
+    <SUITE FILE_PATH="coverage/cucumberTest@products_feature.coverage" NAME="products.feature Coverage Results" MODIFIED="1479382480561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
     <SUITE FILE_PATH="coverage/cucumberTest@product_types_feature.coverage" NAME="product_types.feature Coverage Results" MODIFIED="1478860581962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
-    <SUITE FILE_PATH="coverage/cucumberTest@switch_to_list_view_feature.coverage" NAME="switch_to_list_view.feature Coverage Results" MODIFIED="1478969050510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
     <SUITE FILE_PATH="coverage/cucumberTest@create_new_product_feature.coverage" NAME="create_new_product.feature Coverage Results" MODIFIED="1478973850213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
+    <SUITE FILE_PATH="coverage/cucumberTest@switch_to_list_view_feature.coverage" NAME="switch_to_list_view.feature Coverage Results" MODIFIED="1479315376780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -41,71 +45,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="amazon_search.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/amazon_search.rb">
+      <file leaf-file-name="price_lists.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/price_lists.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="7" selection-start-line="26" selection-start-column="0" selection-end-line="27" selection-end-column="25" />
+            <state relative-caret-position="36">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_new_product.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/create_new_product.rb">
+      <file leaf-file-name="products.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/EasyERP/Inventory/products.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="107" column="59" selection-start-line="107" selection-start-column="59" selection-end-line="107" selection-end-column="59" />
+            <state relative-caret-position="395">
+              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="side_menu.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/side_menu.feature">
+      <file leaf-file-name="products.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/Inventory/products.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cucumber.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/cucumber.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete_product.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/delete_product.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="switch_to_list_view.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/switch_to_list_view.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create_new_product.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/create_new_product.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="989">
+              <caret line="215" column="0" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -114,28 +78,8 @@
       <file leaf-file-name="side_men.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/side_men.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete_product.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/delete_product.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="switch_to_grid_list.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/switch_to_grid_list.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="89" column="66" selection-start-line="89" selection-start-column="66" selection-end-line="89" selection-end-column="66" />
+            <state relative-caret-position="306">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -147,8 +91,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TestUnit Test Template" />
-        <option value="Ruby Class Template" />
         <option value="Test-Spec Template" />
+        <option value="RSpec Test Template" />
+        <option value="Ruby Class Template" />
       </list>
     </option>
   </component>
@@ -163,11 +108,18 @@
         <option value="$PROJECT_DIR$/features/step_definitions/product_types.rb" />
         <option value="$PROJECT_DIR$/features/Inventory/Products/create new product.rb" />
         <option value="$PROJECT_DIR$/features/delete_product.feature" />
+        <option value="$PROJECT_DIR$/features/edit_product.rb" />
+        <option value="$PROJECT_DIR$/features/edit_product.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/create_new_product.rb" />
+        <option value="$PROJECT_DIR$/features/create_new_product.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/edit_product.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/delete_product.rb" />
         <option value="$PROJECT_DIR$/features/switch_to_list_view.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/switch_to_grid_list.rb" />
-        <option value="$PROJECT_DIR$/features/create_new_product.feature" />
-        <option value="$PROJECT_DIR$/features/step_definitions/create_new_product.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/products.rb" />
+        <option value="$PROJECT_DIR$/features/products/products.feature" />
+        <option value="$PROJECT_DIR$/features/EasyERP/Inventory/products.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/Inventory/products.rb" />
       </list>
     </option>
   </component>
@@ -208,6 +160,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -258,9 +211,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cucumberTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cucumberTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="step_definitions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inventory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cucumberTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cucumberTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyERP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inventory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -272,65 +268,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/features/EasyERP" />
+      <recent name="$PROJECT_DIR$/features/step_definitions/Inventory" />
+      <recent name="$PROJECT_DIR$/features/Inventory" />
       <recent name="$PROJECT_DIR$/features" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber.create_new_product.feature">
-    <configuration default="false" name="product_types" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="cucumberTest" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/features/step_definitions" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/features/step_definitions/product_types.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method />
-    </configuration>
-    <configuration default="false" name="create_new_product.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
-      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
-      <module name="cucumberTest" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/create_new_product.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Cucumber.products.feature">
     <configuration default="false" name="delete_product.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="cucumberTest" />
@@ -408,6 +352,78 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/switch_to_list_view.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="false" name="edit_product.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="cucumberTest" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/edit_product.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="false" name="products.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="cucumberTest" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/EasyERP/Inventory/products.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
@@ -553,19 +569,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.product_types" />
-      <item index="1" class="java.lang.String" itemvalue="Cucumber.create_new_product.feature" />
-      <item index="2" class="java.lang.String" itemvalue="Cucumber.delete_product.feature" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.create_new_product" />
-      <item index="4" class="java.lang.String" itemvalue="Cucumber.switch_to_list_view.feature" />
+      <item index="0" class="java.lang.String" itemvalue="Cucumber.delete_product.feature" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.create_new_product" />
+      <item index="2" class="java.lang.String" itemvalue="Cucumber.switch_to_list_view.feature" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber.edit_product.feature" />
+      <item index="4" class="java.lang.String" itemvalue="Cucumber.products.feature" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber.create_new_product.feature" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber.switch_to_list_view.feature" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber.delete_product.feature" />
+        <item index="0" class="java.lang.String" itemvalue="Cucumber.products.feature" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber.edit_product.feature" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber.switch_to_list_view.feature" />
         <item index="3" class="java.lang.String" itemvalue="Ruby.create_new_product" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.product_types" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber.delete_product.feature" />
       </list>
     </recent_temporary>
   </component>
@@ -585,55 +601,60 @@
       <workItem from="1478789338310" duration="10131000" />
       <workItem from="1478852154650" duration="13465000" />
       <workItem from="1478877866246" duration="5803000" />
-      <workItem from="1478943130727" duration="25250000" />
+      <workItem from="1478943130727" duration="25776000" />
+      <workItem from="1478974880023" duration="27000" />
+      <workItem from="1479023654596" duration="11452000" />
+      <workItem from="1479288982662" duration="1004000" />
+      <workItem from="1479290869250" duration="18064000" />
+      <workItem from="1479375517232" duration="6961000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="create_new_product_feature - 2016.11.12 at 19h 59m 23s.xml">
-      <configuration name="create_new_product.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="products_feature - 2016.11.16 at 19h 10m 42s.xml">
+      <configuration name="products.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="create_new_product_feature - 2016.11.12 at 20h 00m 40s.xml">
-      <configuration name="create_new_product.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="products_feature - 2016.11.17 at 12h 03m 01s.xml">
+      <configuration name="products.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="create_new_product_feature - 2016.11.12 at 20h 03m 20s.xml">
-      <configuration name="create_new_product.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="products_feature - 2016.11.17 at 12h 19m 17s.xml">
+      <configuration name="products.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="create_new_product_feature - 2016.11.12 at 20h 07m 52s.xml">
-      <configuration name="create_new_product.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="products_feature - 2016.11.17 at 12h 25m 53s.xml">
+      <configuration name="products.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="switch_to_list_view_feature - 2016.11.12 at 17h 45m 57s.xml">
-      <configuration name="switch_to_list_view.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="products_feature - 2016.11.17 at 12h 34m 46s.xml">
+      <configuration name="products.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="switch_to_list_view_feature - 2016.11.12 at 17h 51m 19s.xml">
-      <configuration name="switch_to_list_view.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="products_feature - 2016.11.17 at 13h 05m 44s.xml">
+      <configuration name="products.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="switch_to_list_view_feature - 2016.11.12 at 17h 53m 46s.xml">
-      <configuration name="switch_to_list_view.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="products_feature - 2016.11.17 at 13h 23m 06s.xml">
+      <configuration name="products.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="switch_to_list_view_feature - 2016.11.12 at 17h 56m 01s.xml">
-      <configuration name="switch_to_list_view.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="products_feature - 2016.11.17 at 13h 32m 30s.xml">
+      <configuration name="products.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="switch_to_list_view_feature - 2016.11.12 at 18h 00m 33s.xml">
-      <configuration name="switch_to_list_view.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="products_feature - 2016.11.17 at 13h 46m 17s.xml">
+      <configuration name="products.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="switch_to_list_view_feature - 2016.11.12 at 18h 47m 20s.xml">
+    <history-entry file="switch_to_list_view_feature - 2016.11.16 at 18h 58m 44s.xml">
       <configuration name="switch_to_list_view.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59944000" />
+    <option name="totallyTimeSpent" value="97978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1363" y="0" width="1926" height="1083" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26040554" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19477054" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36188436" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20770878" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35331905" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -663,27 +684,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/amazon_search.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/create_new_product.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="84" column="49" selection-start-line="84" selection-start-column="49" selection-end-line="84" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/switch_to_grid_list.rb" />
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/amazon_search.rb" />
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/amazon_search.rb" />
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/create_new_product.rb" />
     <entry file="file://$PROJECT_DIR$/features/side_menu.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -691,42 +699,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/amazon_search.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="30" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/create_new_product.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="30" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/delete_product.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/create_new_product.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/amazon_search.rb" />
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/create_new_product.rb" />
+    <entry file="file://$PROJECT_DIR$/features/delete_product.feature" />
+    <entry file="file://$PROJECT_DIR$/features/create_new_product.feature" />
     <entry file="file://$PROJECT_DIR$/features/step_definitions/side_men.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -735,22 +714,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/delete_product.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/amazon_search.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="30" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/delete_product.rb" />
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/amazon_search.rb" />
     <entry file="file://$PROJECT_DIR$/features/step_definitions/product_types.rb" />
     <entry file="file://$PROJECT_DIR$/features/product_types.feature" />
     <entry file="file://$PROJECT_DIR$/features/step_definitions/side_men.rb">
@@ -761,14 +726,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/amazon_search.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/amazon_search.rb" />
     <entry file="file://$PROJECT_DIR$/features/support/env.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -847,21 +805,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/Amazon_Search.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Amazon_Search.feature" />
     <entry file="file://$PROJECT_DIR$/features/Inventory/Products/create new product.rb" />
     <entry file="file://$PROJECT_DIR$/features/step_definitions/product_types.rb" />
     <entry file="file://$PROJECT_DIR$/features/product_types.feature" />
+    <entry file="file://$PROJECT_DIR$/features/switch_to_list_view.rb" />
     <entry file="file://$PROJECT_DIR$/features/side_menu.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -869,78 +821,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/edit_product.rb" />
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/amazon_search.rb" />
+    <entry file="file://$PROJECT_DIR$/features/EasyERP/Inventory/price_lists.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/price_lists.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/create_new_product.rb" />
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/delete_product.rb" />
+    <entry file="file://$PROJECT_DIR$/features/create_new_product.feature" />
+    <entry file="file://$PROJECT_DIR$/features/delete_product.feature" />
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/edit_product.rb" />
+    <entry file="file://$PROJECT_DIR$/features/edit_product.feature" />
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/switch_to_grid_list.rb" />
+    <entry file="file://$PROJECT_DIR$/features/switch_to_list_view.feature" />
     <entry file="file://$PROJECT_DIR$/features/step_definitions/side_men.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+        <state relative-caret-position="306">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/switch_to_list_view.rb">
+    <entry file="file://$PROJECT_DIR$/features/EasyERP/Inventory/products.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="395">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/delete_product.rb">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/Inventory/products.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/delete_product.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/amazon_search.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="7" selection-start-line="26" selection-start-column="0" selection-end-line="27" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/switch_to_list_view.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/switch_to_grid_list.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="89" column="66" selection-start-line="89" selection-start-column="66" selection-end-line="89" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/create_new_product.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/create_new_product.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="107" column="59" selection-start-line="107" selection-start-column="59" selection-end-line="107" selection-end-column="59" />
+        <state relative-caret-position="989">
+          <caret line="215" column="0" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
           <folding />
         </state>
       </provider>
