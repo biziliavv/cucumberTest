@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b460695-556b-4445-9293-342a7e5a8935" name="Default" comment="">
+<<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/EasyERP/Inventory/products.feature" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/features/create_new_product.feature" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/features/delete_product.feature" afterPath="" />
@@ -12,6 +13,11 @@
       <change type="MOVED" beforePath="$PROJECT_DIR$/features/step_definitions/create_new_product.rb" afterPath="$PROJECT_DIR$/features/step_definitions/Inventory/products.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/cucumberTest.iml" afterPath="$PROJECT_DIR$/.idea/cucumberTest.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/cucumberTest.iml" afterPath="$PROJECT_DIR$/.idea/cucumberTest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/price_lists.rb" afterPath="$PROJECT_DIR$/features/step_definitions/price_lists.rb" />
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
     </list>
     <ignored path="cucumberTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,17 +30,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/cucumberTest@product_types.coverage" NAME="product_types Coverage Results" MODIFIED="1478796229117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/step_definitions" MODULE_NAME="cucumberTest" />
-    <SUITE FILE_PATH="coverage/cucumberTest@create_new_product.coverage" NAME="create_new_product Coverage Results" MODIFIED="1478882914878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/step_definitions" MODULE_NAME="cucumberTest" />
+    <SUITE FILE_PATH="coverage/cucumberTest@amazon_search.coverage" NAME="amazon_search Coverage Results" MODIFIED="1478785266051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/step_definitions" MODULE_NAME="cucumberTest" />
+    <SUITE FILE_PATH="coverage/cucumberTest@Scenario__Delete_inside_of_price_list.coverage" NAME="Scenario: Delete inside of price list Coverage Results" MODIFIED="1479137118087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
     <SUITE FILE_PATH="coverage/cucumberTest@Amazon_Search_feature.coverage" NAME="Amazon_Search.feature Coverage Results" MODIFIED="1478794227272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
-    <SUITE FILE_PATH="coverage/cucumberTest@side_menu_feature.coverage" NAME="side_menu.feature Coverage Results" MODIFIED="1478794273162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
+    <SUITE FILE_PATH="coverage/cucumberTest@Scenario__Correct_create_new_price_lists_checking__1_.coverage" NAME="Scenario: Correct create new price lists checking (1) Coverage Results" MODIFIED="1479112026222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
+    <SUITE FILE_PATH="coverage/cucumberTest@Scenario__Removing_all_price_lists.coverage" NAME="Scenario: Removing all price lists Coverage Results" MODIFIED="1479113289440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
+    <SUITE FILE_PATH="coverage/cucumberTest@Scenario__Removing_all_price_lists__3_.coverage" NAME="Scenario: Removing all price lists (3) Coverage Results" MODIFIED="1479116776065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
     <SUITE FILE_PATH="coverage/cucumberTest@delete_product_feature.coverage" NAME="delete_product.feature Coverage Results" MODIFIED="1478956965538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/cucumberTest@edit_product_feature.coverage" NAME="edit_product.feature Coverage Results" MODIFIED="1479052106582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
     <SUITE FILE_PATH="coverage/cucumberTest@amazon_search.coverage" NAME="amazon_search Coverage Results" MODIFIED="1478785266051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/step_definitions" MODULE_NAME="cucumberTest" />
     <SUITE FILE_PATH="coverage/cucumberTest@products_feature.coverage" NAME="products.feature Coverage Results" MODIFIED="1479382480561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
     <SUITE FILE_PATH="coverage/cucumberTest@product_types_feature.coverage" NAME="product_types.feature Coverage Results" MODIFIED="1478860581962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
     <SUITE FILE_PATH="coverage/cucumberTest@create_new_product_feature.coverage" NAME="create_new_product.feature Coverage Results" MODIFIED="1478973850213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
     <SUITE FILE_PATH="coverage/cucumberTest@switch_to_list_view_feature.coverage" NAME="switch_to_list_view.feature Coverage Results" MODIFIED="1479315376780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
+=======
+    <SUITE FILE_PATH="coverage/cucumberTest@create_new_product_feature.coverage" NAME="create_new_product.feature Coverage Results" MODIFIED="1478973850213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
+    <SUITE FILE_PATH="coverage/cucumberTest@Scenario__Delete_inside_of_price_list__5_.coverage" NAME="Scenario: Delete inside of price list (5) Coverage Results" MODIFIED="1479137059444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
+    <SUITE FILE_PATH="coverage/cucumberTest@side_menu_feature.coverage" NAME="side_menu.feature Coverage Results" MODIFIED="1478794273162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
+    <SUITE FILE_PATH="coverage/cucumberTest@Scenario__Correct_create_new_price_lists_checking.coverage" NAME="Scenario: Correct create new price lists checking Coverage Results" MODIFIED="1479290466294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
+    <SUITE FILE_PATH="coverage/cucumberTest@Scenario__Removing_all_price_lists__2_.coverage" NAME="Scenario: Removing all price lists (2) Coverage Results" MODIFIED="1479116699099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
+    <SUITE FILE_PATH="coverage/cucumberTest@Scenario__Removing_one_price_list.coverage" NAME="Scenario: Removing one price list Coverage Results" MODIFIED="1479199327078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
+    <SUITE FILE_PATH="coverage/cucumberTest@Scenario__Delete_inside_of_price_list__2_.coverage" NAME="Scenario: Delete inside of price list (2) Coverage Results" MODIFIED="1479195599908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
+    <SUITE FILE_PATH="coverage/cucumberTest@Scenario__Removing_all_price_lists__1_.coverage" NAME="Scenario: Removing all price lists (1) Coverage Results" MODIFIED="1479113659647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
+    <SUITE FILE_PATH="coverage/cucumberTest@Scenario__Delete_inside_of_price_list__1_.coverage" NAME="Scenario: Delete inside of price list (1) Coverage Results" MODIFIED="1479195585347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
+    <SUITE FILE_PATH="coverage/cucumberTest@switch_to_list_view_feature.coverage" NAME="switch_to_list_view.feature Coverage Results" MODIFIED="1478969050510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
+    <SUITE FILE_PATH="coverage/cucumberTest@price_lists.coverage" NAME="price_lists Coverage Results" MODIFIED="1479111988730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/step_definitions" MODULE_NAME="cucumberTest" />
+    <SUITE FILE_PATH="coverage/cucumberTest@price_lists_feature.coverage" NAME="price_lists.feature Coverage Results" MODIFIED="1479300117394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
+    <SUITE FILE_PATH="coverage/cucumberTest@Scenario__Delete_inside_of_price_list__4_.coverage" NAME="Scenario: Delete inside of price list (4) Coverage Results" MODIFIED="1479198910597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
+    <SUITE FILE_PATH="coverage/cucumberTest@product_types.coverage" NAME="product_types Coverage Results" MODIFIED="1478796229117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/step_definitions" MODULE_NAME="cucumberTest" />
+    <SUITE FILE_PATH="coverage/cucumberTest@create_new_product.coverage" NAME="create_new_product Coverage Results" MODIFIED="1478882914878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/step_definitions" MODULE_NAME="cucumberTest" />
+    <SUITE FILE_PATH="coverage/cucumberTest@product_types_feature.coverage" NAME="product_types.feature Coverage Results" MODIFIED="1478860581962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
+    <SUITE FILE_PATH="coverage/cucumberTest@Scenario__Delete_inside_of_price_list__3_.coverage" NAME="Scenario: Delete inside of price list (3) Coverage Results" MODIFIED="1479195887660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumberTest" />
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -45,31 +73,119 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="price_lists.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/price_lists.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
               <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
+=======
+      <file leaf-file-name="price_lists.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/price_lists/price_lists.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="44" column="2" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="products.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/EasyERP/Inventory/products.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="395">
               <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+=======
+      <file leaf-file-name="delete_product.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/delete_product.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="products.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/Inventory/products.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="989">
               <caret line="215" column="0" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
+=======
+      <file leaf-file-name="price_lists.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/price_lists.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="env.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chromedriver" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.3.0@global/gems/chromedriver-helper-1.0.0/bin/chromedriver">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="switch_to_grid_list.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/switch_to_grid_list.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="38" selection-start-line="20" selection-start-column="2" selection-end-line="32" selection-end-column="38" />
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="switch_to_list_view.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/switch_to_list_view.feature">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="306">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+=======
+            <state relative-caret-position="180">
+              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="side_menu.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/side_menu.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -78,8 +194,9 @@
       <file leaf-file-name="side_men.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/side_men.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="15" column="53" selection-start-line="14" selection-start-column="2" selection-end-line="15" selection-end-column="53" />
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
               <folding />
             </state>
           </provider>
@@ -103,11 +220,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/features/product_types.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/product_types.rb" />
         <option value="$PROJECT_DIR$/features/Inventory/Products/create new product.rb" />
         <option value="$PROJECT_DIR$/features/delete_product.feature" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/features/edit_product.rb" />
         <option value="$PROJECT_DIR$/features/edit_product.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/create_new_product.rb" />
@@ -120,6 +237,20 @@
         <option value="$PROJECT_DIR$/features/products/products.feature" />
         <option value="$PROJECT_DIR$/features/EasyERP/Inventory/products.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/Inventory/products.rb" />
+=======
+        <option value="$PROJECT_DIR$/features/switch_to_list_view.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/switch_to_grid_list.rb" />
+        <option value="$PROJECT_DIR$/features/create_new_product.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/create_new_product.rb" />
+        <option value="$PROJECT_DIR$/reports.html" />
+        <option value="$PROJECT_DIR$/features/step_definitions/delete_product.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/side_men.rb" />
+        <option value="$PROJECT_DIR$/features/price_lists.feature" />
+        <option value="$PROJECT_DIR$/features/price_lists/price_lists.feature" />
+        <option value="$PROJECT_DIR$/features/support/env.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/features/step_definitions/price_lists.rb" />
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
       </list>
     </option>
   </component>
@@ -130,9 +261,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1363" />
-    <option name="width" value="1926" />
-    <option name="height" value="1083" />
+    <option name="y" value="23" />
+    <option name="width" value="1346" />
+    <option name="height" value="691" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -159,14 +290,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="Scratches" />
+=======
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="cucumberTest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -190,6 +328,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cucumberTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cucumberTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="support" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -225,6 +381,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="step_definitions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -252,22 +409,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Inventory" />
+=======
+              <option name="myItemId" value="price_lists" />
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+      <pane id="Scope" />
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="$PROJECT_DIR$/features/EasyERP" />
       <recent name="$PROJECT_DIR$/features/step_definitions/Inventory" />
       <recent name="$PROJECT_DIR$/features/Inventory" />
@@ -312,13 +481,24 @@
       <method />
     </configuration>
     <configuration default="false" name="create_new_product" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+=======
+      <recent name="$PROJECT_DIR$/features/price_lists" />
+      <recent name="$PROJECT_DIR$/features" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber.price_lists.feature">
+    <configuration default="false" name="Scenario: Delete inside of price list (3)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
       <module name="cucumberTest" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/features/step_definitions" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
@@ -326,11 +506,33 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
+<<<<<<< HEAD
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/features/step_definitions/create_new_product.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
     <configuration default="false" name="switch_to_list_view.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+=======
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/price_lists/price_lists.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Delete inside of price list$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="false" name="price_lists.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="cucumberTest" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -351,7 +553,11 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+<<<<<<< HEAD
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/switch_to_list_view.feature" />
+=======
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/price_lists/price_lists.feature" />
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
@@ -366,7 +572,11 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="edit_product.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+=======
+    <configuration default="false" name="Scenario: Delete inside of price list (4)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="cucumberTest" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -387,9 +597,13 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+<<<<<<< HEAD
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/edit_product.feature" />
+=======
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/price_lists/price_lists.feature" />
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Delete inside of price list$" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
@@ -402,7 +616,10 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="products.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+=======
+    <configuration default="false" name="Scenario: Removing one price list" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="cucumberTest" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -423,9 +640,50 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/EasyERP/Inventory/products.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/price_lists/price_lists.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Removing one price list$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Scenario: Correct create new price lists checking" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="cucumberTest" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+<<<<<<< HEAD
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/EasyERP/Inventory/products.feature" />
+=======
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/price_lists/price_lists.feature" />
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Correct create new price lists checking$" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
@@ -569,6 +827,7 @@
       <method />
     </configuration>
     <list size="5">
+<<<<<<< HEAD
       <item index="0" class="java.lang.String" itemvalue="Cucumber.delete_product.feature" />
       <item index="1" class="java.lang.String" itemvalue="Ruby.create_new_product" />
       <item index="2" class="java.lang.String" itemvalue="Cucumber.switch_to_list_view.feature" />
@@ -582,6 +841,21 @@
         <item index="2" class="java.lang.String" itemvalue="Cucumber.switch_to_list_view.feature" />
         <item index="3" class="java.lang.String" itemvalue="Ruby.create_new_product" />
         <item index="4" class="java.lang.String" itemvalue="Cucumber.delete_product.feature" />
+=======
+      <item index="0" class="java.lang.String" itemvalue="Cucumber.Scenario: Delete inside of price list (3)" />
+      <item index="1" class="java.lang.String" itemvalue="Cucumber.price_lists.feature" />
+      <item index="2" class="java.lang.String" itemvalue="Cucumber.Scenario: Delete inside of price list (4)" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber.Scenario: Removing one price list" />
+      <item index="4" class="java.lang.String" itemvalue="Cucumber.Scenario: Correct create new price lists checking" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Cucumber.Scenario: Correct create new price lists checking" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber.Scenario: Removing one price list" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber.Scenario: Delete inside of price list (4)" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber.price_lists.feature" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber.Scenario: Delete inside of price list (3)" />
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
       </list>
     </recent_temporary>
   </component>
@@ -601,16 +875,181 @@
       <workItem from="1478789338310" duration="10131000" />
       <workItem from="1478852154650" duration="13465000" />
       <workItem from="1478877866246" duration="5803000" />
+<<<<<<< HEAD
       <workItem from="1478943130727" duration="25776000" />
       <workItem from="1478974880023" duration="27000" />
       <workItem from="1479023654596" duration="11452000" />
       <workItem from="1479288982662" duration="1004000" />
       <workItem from="1479290869250" duration="18064000" />
       <workItem from="1479375517232" duration="6961000" />
+=======
+      <workItem from="1478943130727" duration="25250000" />
+      <workItem from="1479109375424" duration="1013000" />
+      <workItem from="1479111445524" duration="525000" />
+      <workItem from="1479112013596" duration="1484000" />
+      <workItem from="1479113625805" duration="4098000" />
+      <workItem from="1479119067761" duration="4198000" />
+      <workItem from="1479194851721" duration="5437000" />
+      <workItem from="1479282418345" duration="2058000" />
+      <workItem from="1479289274463" duration="3836000" />
+      <workItem from="1479299792555" duration="4869000" />
+      <workItem from="1479307784823" duration="1858000" />
+      <workItem from="1479371019572" duration="651000" />
+      <workItem from="1479372032928" duration="712000" />
     </task>
+    <task id="LOCAL-00001" summary="Edited price lists">
+      <created>1479194922331</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1479194922331</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Edited price lists">
+      <created>1479199566994</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1479199566994</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Edited price lists">
+      <created>1479223620539</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1479223620539</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Edited price lists">
+      <created>1479282928052</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1479282928052</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Edited price lists">
+      <created>1479283131125</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1479283131125</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Edited price lists">
+      <created>1479286902976</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1479286902976</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Edited price lists">
+      <created>1479290782512</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1479290782512</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Edited price lists">
+      <created>1479297239800</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1479297239800</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Edited price lists">
+      <created>1479297635933</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1479297635933</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Edited price lists">
+      <created>1479297846585</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1479297846585</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Edited price lists">
+      <created>1479298882752</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1479298882752</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Edited price lists">
+      <created>1479299167617</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1479299167617</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Edited price lists">
+      <created>1479300009614</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1479300009615</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Edited price lists">
+      <created>1479302040827</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1479302040827</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Edited price lists">
+      <created>1479302644358</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1479302644358</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Edited price lists">
+      <created>1479302918604</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1479302918604</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Edited price lists">
+      <created>1479303337117</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1479303337117</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Edited price lists">
+      <created>1479304329554</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1479304329554</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Edited price lists">
+      <created>1479304681103</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1479304681103</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Edited price lists">
+      <created>1479309245918</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1479309245918</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Edited price lists">
+      <created>1479371716770</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1479371716770</updated>
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
     <history-entry file="products_feature - 2016.11.16 at 19h 10m 42s.xml">
       <configuration name="products.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
@@ -655,8 +1094,63 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20770878" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35331905" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+    <history-entry file="Scenario__Delete_inside_of_price_list_(3) - 2016.11.15 at 09h 44m 11s.xml">
+      <configuration name="Scenario: Delete inside of price list (3)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Delete_inside_of_price_list_(3) - 2016.11.15 at 09h 45m 17s.xml">
+      <configuration name="Scenario: Delete inside of price list (3)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Delete_inside_of_price_list_(4) - 2016.11.15 at 10h 35m 46s.xml">
+      <configuration name="Scenario: Delete inside of price list (4)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Removing_one_price_list - 2016.11.15 at 10h 42m 19s.xml">
+      <configuration name="Scenario: Removing one price list" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="price_lists_feature - 2016.11.15 at 10h 37m 47s.xml">
+      <configuration name="price_lists.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="price_lists_feature - 2016.11.15 at 16h 04m 20s.xml">
+      <configuration name="price_lists.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="price_lists_feature - 2016.11.16 at 13h 59m 44s.xml">
+      <configuration name="price_lists.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="price_lists_feature - 2016.11.16 at 14h 38m 05s.xml">
+      <configuration name="price_lists.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="price_lists_feature - 2016.11.16 at 14h 41m 36s.xml">
+      <configuration name="price_lists.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="price_lists_feature - 2016.11.16 at 14h 42m 01s.xml">
+      <configuration name="price_lists.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="90683000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1346" height="691" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31058282" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2976" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -679,15 +1173,62 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Edited price lists" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited price lists" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/features/step_definitions/switch_to_grid_list.rb" />
     <entry file="file://$PROJECT_DIR$/features/step_definitions/amazon_search.rb" />
     <entry file="file://$PROJECT_DIR$/features/step_definitions/amazon_search.rb" />
     <entry file="file://$PROJECT_DIR$/features/step_definitions/create_new_product.rb" />
+=======
+    <entry file="file://$PROJECT_DIR$/features/create_new_product.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/side_men.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/delete_product.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/switch_to_grid_list.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="89" column="66" selection-start-line="89" selection-start-column="66" selection-end-line="89" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/amazon_search.rb" />
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/create_new_product.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="84" column="49" selection-start-line="84" selection-start-column="49" selection-end-line="84" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
     <entry file="file://$PROJECT_DIR$/features/side_menu.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -699,6 +1240,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/amazon_search.rb" />
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/create_new_product.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="30" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/delete_product.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/create_new_product.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
         </state>
       </provider>
     </entry>
@@ -714,7 +1282,18 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/features/step_definitions/delete_product.rb" />
+=======
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/delete_product.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
     <entry file="file://$PROJECT_DIR$/features/step_definitions/amazon_search.rb" />
     <entry file="file://$PROJECT_DIR$/features/step_definitions/product_types.rb" />
     <entry file="file://$PROJECT_DIR$/features/product_types.feature" />
@@ -769,13 +1348,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cucumber.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -787,13 +1359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -810,15 +1375,54 @@
     <entry file="file://$PROJECT_DIR$/features/step_definitions/product_types.rb" />
     <entry file="file://$PROJECT_DIR$/features/product_types.feature" />
     <entry file="file://$PROJECT_DIR$/features/switch_to_list_view.rb" />
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/amazon_search.rb" />
+    <entry file="file://$PROJECT_DIR$/features/create_new_product.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/create_new_product.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2355">
+          <caret line="157" column="0" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/features/Amazon_Search.feature" />
+    <entry file="file://$PROJECT_DIR$/features/Inventory/Products/create new product.rb" />
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/product_types.rb" />
+    <entry file="file://$PROJECT_DIR$/features/product_types.feature" />
+    <entry file="file://$PROJECT_DIR$/features/switch_to_list_view.rb" />
     <entry file="file://$PROJECT_DIR$/features/side_menu.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/reports" />
+    <entry file="file://$PROJECT_DIR$/features/cucumber.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/cucumber.json">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/delete_product.rb">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+          <folding />
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports.html" />
+    <entry file="file://$PROJECT_DIR$/features/delete_product.feature">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
@@ -830,18 +1434,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="28" />
+=======
+        <state relative-caret-position="120">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/features/price_lists/price_lists.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="2" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.3.0@global/gems/chromedriver-helper-1.0.0/bin/chromedriver">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/switch_to_grid_list.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="38" selection-start-line="20" selection-start-column="2" selection-end-line="32" selection-end-column="38" />
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/features/step_definitions/price_lists.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
+=======
+    <entry file="file://$PROJECT_DIR$/features/switch_to_list_view.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/features/step_definitions/create_new_product.rb" />
     <entry file="file://$PROJECT_DIR$/features/step_definitions/delete_product.rb" />
     <entry file="file://$PROJECT_DIR$/features/create_new_product.feature" />
@@ -854,22 +1502,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/features/side_menu.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/side_men.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="53" selection-start-line="14" selection-start-column="2" selection-end-line="15" selection-end-column="53" />
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/features/EasyERP/Inventory/products.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
           <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/features/step_definitions/Inventory/products.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="989">
           <caret line="215" column="0" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/price_lists.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+>>>>>>> 5999daf1a5be2494469f361423efa18fd77c596d
           <folding />
         </state>
       </provider>

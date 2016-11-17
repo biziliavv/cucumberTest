@@ -1,8 +1,6 @@
-
+require 'selenium-webdriver'
 
 Given(/^user opens pricelists tab$/) do
-  chromedriver_path = File.join(File.absolute_path('/usr/local/bin/', File.dirname(__FILE__)),"chromedriver")
-  Selenium::WebDriver::Firefox.driver_path = chromedriver_path
   @browser = Watir::Browser.new :chrome
   @browser.goto "http://testdemo.easyerp.com/#easyErp/priceLists/list"
 end
