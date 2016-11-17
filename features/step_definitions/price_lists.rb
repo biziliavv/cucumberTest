@@ -1,4 +1,5 @@
-require 'selenium-webdriver'
+require "rubygems"
+require "selenium-webdriver"
 
 Given(/^user opens pricelists tab$/) do
   @browser = Watir::Browser.new :chrome
