@@ -29,12 +29,12 @@ When(/^user clicks on create button$/) do
 end
 
 Then(/^error about empty fields appears$/) do
-  Watir::Wait.until { @browser.div(:class => "error").visible? }
+  Watir::Wait.until { @browser.div(:class => "error").present? }
 
 end
 
 Then(/^error about empty price list code appears$/) do
-  Watir::Wait.until { @browser.div(:text => "Price List Code field can not be empty").visible? }
+  Watir::Wait.until { @browser.div(:text => "Price List Code field can not be empty").present? }
 end
 
 When(/^user changes currency to "([^"]*)"$/) do |arg|
