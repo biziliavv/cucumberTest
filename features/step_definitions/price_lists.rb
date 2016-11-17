@@ -1,6 +1,7 @@
 
 Given(/^user opens pricelists tab$/) do
   @browser = Watir::Browser.new :chrome
+  Selenium::WebDriver::Chrome.path = '/usr/local/bin/chromedriver'
   @browser.goto "http://testdemo.easyerp.com/#easyErp/priceLists/list"
 end
 
