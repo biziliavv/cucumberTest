@@ -66,6 +66,7 @@ Then(/^verify that list is empty$/) do
 end
 
 When(/^user accepts alert$/) do
+  Watir::Wait.until{@browser.alert.present?}
   @browser.alert.ok
 end
 
