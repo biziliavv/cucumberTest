@@ -1,10 +1,18 @@
 Feature: Product
 
+  Scenario: User updates the product
+    Given user opens Products tab
+    When user logs in to EasyErp
+    When user opens the product for editing
+    When user sorts the products on left menu
+
+
   Scenario: User creates Demo product for bundle
     Given user opens Products tab
     When user logs in to EasyErp
     When user clicks on New button to create new product
     When user enters Product name "Demo Product"
+    When user uploads the picture
     When user checks all checkboxes
     When user selects categories
     When user clicks Create button
