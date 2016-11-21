@@ -1,6 +1,6 @@
 Feature: Product
 
-  Scenario: User updates the product
+  Scenario: User sorts the product on left menu
     Given user opens Products tab
     When user logs in to EasyErp
     When user opens the product for editing
