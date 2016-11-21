@@ -112,3 +112,27 @@ When(/^user checks one invoice from the list$/) do
   @browser.span(:xpath => "//tr[2]/td[1]/label/span").click
 
 end
+
+When(/^user clicks on edit invoice button$/) do
+  sleep(2)
+  @browser.button(:id => "editButton").click
+  sleep(2)
+end
+
+
+When(/^user changes invoice$/) do
+  sleep(5)
+  @browser.a(:id => "paymentMethod").click
+  sleep(2)
+  @browser.lis(:xpath => "//li[@data-level='']").first.click
+  sleep(2)
+  @browser.input(:id => "due_date").click
+  sleep(2)
+  @browser.as(:xpath => "//a[@href='#']").first.click
+  sleep(2)
+end
+
+When(/^user save changes$/) do
+  sleep(2)
+  @browser.span(:text => "Save").click
+end
