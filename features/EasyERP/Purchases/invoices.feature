@@ -89,4 +89,19 @@ Feature: Invoices checking
     When user changes invoice
     When user save changes
 
-
+  Scenario: User deletes invoice inside of it
+    Given user goes to orders tab
+    When user logs in to EasyErp
+    When user click on New pricelist
+    When user selects supplier
+    When user clicks on "Add an item"
+    When user types unit price "10"
+    When user clicks Create button
+    When user opens created item from the list
+    When user click on editing order button
+    Then verify that invoices tab is opened
+    When user opens created item from the list
+    When user one invoice
+    When user click on "Delete" button
+    When user accepts alert
+    Then browser is closing

@@ -35,7 +35,7 @@ When(/^user types unit price "([^"]*)"$/) do |arg|
 end
 
 When(/^user opens created item from the list$/) do
-
+  sleep(2)
   @browser.td(:xpath => ".//*[@id='listTable']/tr[1]/td[2]").click
   sleep(2)
 
@@ -43,6 +43,7 @@ When(/^user opens created item from the list$/) do
 end
 
 When(/^user click on editing order button$/) do
+  sleep(2)
   @browser.button(:class => "editButton btn").click
   sleep(2)
   @browser.button(:class => "receiveInvoice btn").click
@@ -135,4 +136,10 @@ end
 When(/^user save changes$/) do
   sleep(2)
   @browser.span(:text => "Save").click
+end
+
+When(/^user one invoice$/) do
+  sleep(2)
+  @browser.inputs(:xpath => "//tr[3]/td[1]/label/input").first.click
+  sleep(2)
 end
