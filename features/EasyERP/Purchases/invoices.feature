@@ -81,3 +81,19 @@ Feature: Invoices checking
     When user clicks on approve button
     When user clicks on upload button and selects file
 
+  Scenario: User deletes invoice
+    Given user goes to orders tab
+    When user logs in to EasyErp
+    When user minimize left menu
+    When user click on New pricelist
+    When user selects supplier
+    When user clicks on "Add an item"
+    When user types unit price "10"
+    When user clicks Create button
+    When user opens created item from the list
+    When user click on editing order button
+    Then verify that invoices tab is opened
+    When user checks one invoice from the list
+    When user clicks delete button
+
+

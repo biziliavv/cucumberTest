@@ -205,7 +205,7 @@ end
 
 
 When(/^user clicks delete button$/) do
-  Watir::Wait.until { @browser.title == "PRODUCTS" }
+  sleep(3)
   @browser.a(:text => "Delete").visible?
   @browser.a(:id => "top-bar-deleteBtn").click
   sleep(10)

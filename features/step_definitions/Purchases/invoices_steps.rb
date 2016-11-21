@@ -106,3 +106,9 @@ When(/^user clicks on upload button and selects file$/) do
     attach_file("PI32.pdf", File.open("/Users/vitaliybizilia/Documents/cucumberTest/features/upload-files/"))
 
 end
+
+When(/^user checks one invoice from the list$/) do
+  sleep(2)
+  @browser.span(:xpath => "//tr[2]/td[1]/label/span").click
+
+end

@@ -4,8 +4,7 @@ require 'minitest/autorun'
 
 
 Given(/^user opens testdemo$/) do
-  chromedriver_path = File.join(File.absolute_path('/usr/local/bin/', File.dirname(__FILE__)),"chromedriver")
-  Selenium::WebDriver::Firefox.driver_path = chromedriver_path
+  Selenium::WebDriver::Chrome.driver_path = '/usr/local/bin/chromedriver'
   @browser = Watir::Browser.new :chrome
   @browser.goto "testdemo.easyerp.com"
 end
