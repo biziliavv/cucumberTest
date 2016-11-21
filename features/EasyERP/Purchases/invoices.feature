@@ -80,3 +80,5 @@ Feature: Invoices checking
     When user clicks on edit button
     When user clicks on approve button
     When user clicks on upload button and selects file
+
+  Scenario: User removes invoice from the list
