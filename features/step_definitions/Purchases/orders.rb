@@ -4,9 +4,8 @@ require 'minitest/autorun'
 
 
 Given(/^user opens Orders tab$/) do
-  firefox_path = File.join(File.absolute_path('/usr/local/bin/', File.dirname(__FILE__)),"geckodriver")
-  Selenium::WebDriver::Firefox.driver_path = firefox_path
-  @browser = Watir::Browser.new :ff
+  Selenium::WebDriver::Chrome.driver_path = '/usr/local/bin/chromedriver'
+  @browser = Watir::Browser.new :chrome
   @browser.goto "http://testdemo.easyerp.com/#easyErp/purchaseOrders/list"
 end
 

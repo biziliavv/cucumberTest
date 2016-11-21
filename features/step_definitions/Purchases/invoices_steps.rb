@@ -75,7 +75,7 @@ end
 When(/^user clicks on edit button$/) do
   sleep(4)
   @browser.button(:id => "editButton").click
-  sleep(2)
+  sleep(5)
   @browser.input(:id => "due_date").click
   sleep(2)
   @browser.as(:xpath => "//a[@href='#']").first.click
@@ -125,7 +125,7 @@ When(/^user changes invoice$/) do
   @browser.a(:id => "paymentMethod").click
   sleep(2)
   @browser.lis(:xpath => "//li[@data-level='']").first.click
-  sleep(2)
+  sleep(5)
   @browser.input(:id => "due_date").click
   sleep(2)
   @browser.as(:xpath => "//a[@href='#']").first.click
