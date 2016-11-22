@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b460695-556b-4445-9293-342a7e5a8935" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/Purchases/invoices_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/Purchases/invoices_steps.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/Purchases/orders.rb" afterPath="$PROJECT_DIR$/features/step_definitions/Purchases/orders.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/EasyERP/Purchases/orders.feature" afterPath="$PROJECT_DIR$/features/EasyERP/Purchases/orders.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/env.rb" afterPath="$PROJECT_DIR$/features/support/env.rb" />
     </list>
     <ignored path="cucumberTest.iws" />
@@ -55,7 +54,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="orders.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="orders.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/Purchases/orders.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="311">
@@ -65,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="env.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="env.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/support/env.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="66" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="66" />
+            <state relative-caret-position="54">
+              <caret line="3" column="71" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -79,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/features/EasyERP/Purchases/orders.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="5" column="32" selection-start-line="2" selection-start-column="2" selection-end-line="5" selection-end-column="32" />
+              <caret line="6" column="32" selection-start-line="2" selection-start-column="2" selection-end-line="5" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -172,9 +171,9 @@
         <option value="$PROJECT_DIR$/features/EasyERP/Purchases/orders.feature" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/features/EasyERP/Purchases/orders_full.feature" />
-        <option value="$PROJECT_DIR$/features/support/env.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/Purchases/invoices_steps.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/Purchases/orders.rb" />
+        <option value="$PROJECT_DIR$/features/support/env.rb" />
       </list>
     </option>
   </component>
@@ -726,7 +725,7 @@
       <workItem from="1479730498944" duration="1077000" />
       <workItem from="1479731638167" duration="10232000" />
       <workItem from="1479747109925" duration="6479000" />
-      <workItem from="1479808528164" duration="15217000" />
+      <workItem from="1479808528164" duration="15297000" />
     </task>
     <task id="LOCAL-00001" summary="Edited price lists">
       <created>1479194922331</created>
@@ -932,7 +931,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153783000" />
+    <option name="totallyTimeSpent" value="153863000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1151,15 +1150,7 @@
     <entry file="file://$PROJECT_DIR$/features/EasyERP/Purchases/orders.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="32" selection-start-line="2" selection-start-column="2" selection-end-line="5" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="66" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="66" />
+          <caret line="6" column="32" selection-start-line="2" selection-start-column="2" selection-end-line="5" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1208,6 +1199,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="108" column="10" selection-start-line="108" selection-start-column="10" selection-end-line="108" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="71" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
           <folding />
         </state>
       </provider>
