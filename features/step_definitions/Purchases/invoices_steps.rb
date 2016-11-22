@@ -2,7 +2,6 @@
 
 
 Given(/^user goes to orders tab$/) do
-  Selenium::WebDriver::Chrome.driver_path = '/usr/local/bin/chromedriver'
   @browser = Watir::Browser.new :chrome
   @browser.goto "http://testdemo.easyerp.com/#easyErp/purchaseOrders/list"
 
@@ -136,6 +135,7 @@ end
 When(/^user save changes$/) do
   sleep(2)
   @browser.span(:text => "Save").click
+
 end
 
 When(/^user one invoice$/) do

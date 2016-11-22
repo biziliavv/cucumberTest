@@ -11,6 +11,7 @@ Feature: Invoices checking
     When user opens created item from the list
     When user click on editing order button
     Then verify that invoices tab is opened
+    Then browser is closing
 
    Scenario: Invoice approving
      Given user goes to orders tab
@@ -26,6 +27,7 @@ Feature: Invoices checking
      When user opens created item from the list
      When user clicks on edit button
      When user clicks on approve button
+     Then browser is closing
 
    Scenario: Open invoice in Journal Entry after approving
      Given user goes to orders tab
@@ -42,6 +44,7 @@ Feature: Invoices checking
      When user clicks on edit button
      When user clicks on approve button
      When user clicks on Journal Entry button
+     Then browser is closing
 
      Scenario: User downloads pdf version of invoice
        Given user goes to orders tab
@@ -58,6 +61,7 @@ Feature: Invoices checking
        When user clicks on edit button
        When user clicks on approve button
        When user clicks on Download button
+       Then browser is closing
 
   Scenario: User deletes invoice
     Given user goes to orders tab
@@ -72,6 +76,7 @@ Feature: Invoices checking
     Then verify that invoices tab is opened
     When user checks one invoice from the list
     When user clicks delete button
+    Then browser is closing
 
   Scenario: User edits invoice
     Given user goes to orders tab
@@ -88,6 +93,7 @@ Feature: Invoices checking
     When user clicks on edit invoice button
     When user changes invoice
     When user save changes
+    Then browser is closing
 
   Scenario: User deletes invoice inside of it
     Given user goes to orders tab

@@ -4,7 +4,6 @@ require 'minitest/autorun'
 
 
 Given(/^user opens Orders tab$/) do
-  Selenium::WebDriver::Chrome.driver_path = '/usr/local/bin/chromedriver'
   @browser = Watir::Browser.new :chrome
   @browser.goto "http://testdemo.easyerp.com/#easyErp/purchaseOrders/list"
 end
