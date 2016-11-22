@@ -56,7 +56,7 @@ Feature: Price list checking
 #    When user accepts alert
 #    Then verify that list is empty
 #    Then browser is closing
- 
+
 
     Scenario: Delete inside of price list
       Given user opens pricelists tab

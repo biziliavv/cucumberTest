@@ -1,16 +1,21 @@
 Feature: Orders
+  
+  Scenario: User downloads pdf file for order
+    Given user opens Orders tab
+    When user logs in to EasyErp
+    When user opens order details page
+    When user downloads pdf for order
+
+  Scenario: User creates the prepayment for the order
+    Given user opens Orders tab
+    When user logs in to EasyErp
+    When user creates prepayment for the order
 
   Scenario: User adds a comment to order
     Given user opens Orders tab
     When user logs in to EasyErp
     When user opens order details page
     When user adds and removes the comment to purchase order
-
-  Scenario: User downloads pdf file for order
-    Given user opens Orders tab
-    When user logs in to EasyErp
-    When user opens order details page
-    When user downloads pdf for order
 
   Scenario: User creates new order
     Given user opens Orders tab

@@ -150,6 +150,7 @@ Then (/^user checks if edited order details were saved successfully$/) do
 end
 
 When (/^user downloads pdf for order$/) do
+  sleep(10)
   @browser.button(:id => "exportToPdf").click
   sleep(10)
 end
@@ -163,6 +164,38 @@ When (/^user adds and removes the comment to purchase order$/) do
   @browser.a(:class => "editDelNote").click
   sleep(30)
   @browser.alert.ok
+  sleep(4)
+  @browser.span(:class => "showmore").click
+  @browser.span(:text => "View Less").visible?
+  sleep(2)
+end
+
+When(/^user creates prepayment for the order$/) do
+  sleep(4)
+  @browser.td(:text => "Cancelled").click
+  sleep(4)
+  @browser.span(:text => "Prepayment").click
+  sleep(2)
+  @browser.text_field(:id => "prepaidAmount").set("1")
+  sleep(2)
+  @browser.a(:id => "overPaymentAccountDd").click
+  sleep(10)
+  @browser.li(:text => /100000 Fixed Asset Account/).click
+  sleep(2)
+  @browser.text_field(:id => "paymentDate").click
+  sleep(10)
+  @browser.a(:text => "1").click
+  sleep(2)
+  @browser.a(:id => "currencyDd").click
+  sleep(2)
+  @browser.li(:text => "USD").click
+  sleep(1)
+  @browser.a(:id => "paymentMethod").click
+  sleep(2)
+  @browser.li(:text => "CASH USD").click
+  sleep(1)
+  @browser.span(:text => /101500 Cash USD/).visible?
+  @browser.span(:text => "Create").click
   sleep(4)
 end
 
