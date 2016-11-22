@@ -111,3 +111,23 @@ Feature: Invoices checking
     When user click on "Delete" button
     When user accepts alert
     Then browser is closing
+
+
+  Scenario: User pay approved invoice
+    Given user goes to orders tab
+    When user logs in to EasyErp
+    When user click on New pricelist
+    When user selects supplier
+    When user clicks on "Add an item"
+    When user types unit price "10"
+    When user clicks Create button
+    When user opens created item from the list
+    When user click on editing order button
+    Then verify that invoices tab is opened
+    When user opens created item from the list
+    When user clicks on edit button
+    When user clicks on approve button
+    When user clicks on "Create Payment" button
+    When user fill in payment info
+    When user clicks Create button
+
