@@ -159,7 +159,7 @@ When(/^user clicks on "([^"]*)" button$/) do |arg|
 end
 
 When(/^user fill in payment info$/) do
-  sleep(5)
+  sleep(30)
   @browser.a(:xpath => ".//*[@id='paymentMethod']").click
   sleep(4)
   @browser.lis(:xpath => "//li[@data-level='']").first.click

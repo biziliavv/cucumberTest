@@ -106,7 +106,7 @@ When (/^user changes the order details$/) do
   @browser.a(:text => "1").click
   sleep(4)
   @browser.a(:id => "account").click
-  sleep(1)
+  sleep(30)
   @browser.li(:text => "100000 Fixed Asset Account").click
   sleep(1)
   @browser.a(:id => "priceList").click
