@@ -94,7 +94,9 @@ DEPENDENCIES
   allure-cucumber
   cucumber
   gecko-ruby
+  mimemagic (= 0.3.2)
   minitest (~> 5.9.0)
+  systemu (= 2.6.5)
   watir-webdriver
 
 BUNDLED WITH
