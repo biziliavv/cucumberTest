@@ -42,20 +42,21 @@ Feature: Price list checking
     Then browser is closing
 
 
-  Scenario: Removing all price lists
-    Given user opens pricelists tab
-    When user logs in to EasyErp
-    When user click on New pricelist
-    When user fill in to pricelist name "testname"
-    When user fill in to pricelist code "code123"
-    When user chooses "Yes" in supplier cost section
-    When user changes currency to "UAH"
-    When user clicks on create button
-    When user checks all pricelists
-    When user click on "Delete" button
-    When user accepts alert
-    Then verify that list is empty
-    Then browser is closing
+#  Scenario: Removing all price lists
+#    Given user opens pricelists tab
+#    When user logs in to EasyErp
+#    When user click on New pricelist
+#    When user fill in to pricelist name "testname"
+#    When user fill in to pricelist code "code123"
+#    When user chooses "Yes" in supplier cost section
+#    When user changes currency to "UAH"
+#    When user clicks on create button
+#    When user checks all pricelists
+#    When user click on "Delete" button
+#    When user accepts alert
+#    Then verify that list is empty
+#    Then browser is closing
+ 
 
     Scenario: Delete inside of price list
       Given user opens pricelists tab
