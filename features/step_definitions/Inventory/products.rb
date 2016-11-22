@@ -207,6 +207,7 @@ end
 When(/^user clicks delete button$/) do
   sleep(3)
   @browser.a(:text => "Delete").visible?
+  sleep(3)
   @browser.a(:id => "top-bar-deleteBtn").click
   sleep(10)
   @browser.alert.ok

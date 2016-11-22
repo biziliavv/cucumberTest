@@ -1,9 +1,10 @@
-
+require 'watir-webdriver/window'
 
 
 Given(/^user goes to orders tab$/) do
-  Selenium::WebDriver::Chrome.driver_path = '/usr/local/bin/chromedriver'
+
   @browser = Watir::Browser.new :chrome
+  @browser.window.maximize
   @browser.goto "http://testdemo.easyerp.com/#easyErp/purchaseOrders/list"
 
 end
@@ -35,7 +36,7 @@ When(/^user types unit price "([^"]*)"$/) do |arg|
 end
 
 When(/^user opens created item from the list$/) do
-
+  sleep(2)
   @browser.td(:xpath => ".//*[@id='listTable']/tr[1]/td[2]").click
   sleep(2)
 
@@ -43,6 +44,7 @@ When(/^user opens created item from the list$/) do
 end
 
 When(/^user click on editing order button$/) do
+  sleep(2)
   @browser.button(:class => "editButton btn").click
   sleep(2)
   @browser.button(:class => "receiveInvoice btn").click
@@ -75,11 +77,15 @@ end
 When(/^user clicks on edit button$/) do
   sleep(4)
   @browser.button(:id => "editButton").click
-  sleep(2)
+  sleep(5)
   @browser.input(:id => "due_date").click
   sleep(2)
   @browser.as(:xpath => "//a[@href='#']").first.click
+  sleep(5)
+  @browser.a(:id => "paymentMethod").click
   sleep(2)
+  @browser.lis(:xpath => "//li[@data-level='']").first.click
+  sleep(5)
   @browser.span(:text => "Save").click
 
 end
@@ -125,7 +131,7 @@ When(/^user changes invoice$/) do
   @browser.a(:id => "paymentMethod").click
   sleep(2)
   @browser.lis(:xpath => "//li[@data-level='']").first.click
-  sleep(2)
+  sleep(5)
   @browser.input(:id => "due_date").click
   sleep(2)
   @browser.as(:xpath => "//a[@href='#']").first.click
@@ -135,4 +141,27 @@ end
 When(/^user save changes$/) do
   sleep(2)
   @browser.span(:text => "Save").click
+
+end
+
+When(/^user one invoice$/) do
+  sleep(2)
+  @browser.inputs(:xpath => "//tr[3]/td[1]/label/input").first.click
+  sleep(2)
+end
+
+When(/^user clicks on "([^"]*)" button$/) do |arg|
+  sleep(4)
+  @browser.button(:id => "editButton").click
+  sleep(3)
+  @browser.span(:text => "#{arg}").click
+  sleep(1)
+end
+
+When(/^user fill in payment info$/) do
+  sleep(5)
+  @browser.a(:xpath => ".//*[@id='paymentMethod']").click
+  sleep(4)
+  @browser.lis(:xpath => "//li[@data-level='']").first.click
+  sleep(5)
 end
