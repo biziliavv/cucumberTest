@@ -172,7 +172,7 @@ end
 
 When(/^user attaches file$/) do
   sleep(2)
-  fname = "/Users/vitaliybizilia/Desktop/test.png"
+  fname = File.expand_path('./../../../../attachments/', __FILE__)
   @browser.file_field.set(fname)
   sleep(5)
 end
