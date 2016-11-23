@@ -174,7 +174,7 @@ When(/^user attaches file$/) do
   sleep(2)
   fname = "/Users/vitaliybizilia/Desktop/test.png"
   @browser.file_field.set(fname)
-  sleep(10)
+  sleep(5)
 end
 
 
