@@ -3,8 +3,12 @@ require 'watir-webdriver/window'
 
 Given(/^user goes to orders tab$/) do
 
+
   @browser = Watir::Browser.new :chrome
-  @browser.window.maximize
+  screen_width = @browser.execute_script("return screen.width;")
+  screen_height = @browser.execute_script("return screen.height;")
+  @browser.driver.manage.window.resize_to(screen_width,screen_height)
+  @browser.driver.manage.window.move_to(0,0)
   @browser.goto "http://testdemo.easyerp.com/#easyErp/purchaseOrders/list"
 
 end
@@ -165,3 +169,12 @@ When(/^user fill in payment info$/) do
   @browser.lis(:xpath => "//li[@data-level='']").first.click
   sleep(5)
 end
+
+When(/^user attaches file$/) do
+  sleep(2)
+  fname = "/Users/vitaliybizilia/Desktop/test.png"
+  @browser.file_field.set(fname)
+  sleep(10)
+end
+
+
