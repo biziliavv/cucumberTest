@@ -18,7 +18,7 @@ end
 When(/^user enters all new order information$/) do
   sleep(5)
   @browser.a(:text => "Cancelled").click
-  sleep(30)
+  sleep(10)
   @browser.li(:text => /Pending PO/).visible?
   @browser.li(:text => /Pending PO/).click
   sleep(1)
@@ -27,14 +27,6 @@ When(/^user enters all new order information$/) do
   @browser.li(:text => /Actifile/).visible?
   @browser.li(:text => /Actifile/).click
   sleep(1)
-  @browser.input(:id => "orderDate").click
-  sleep(1)
-  @browser.a(:text => "1").click
-  sleep(1)
-  @browser.input(:id => "expectDate").click
-  sleep(3)
-  @browser.a(:text => "28").click
-  sleep(3)
   @browser.a(:id => "priceList").click
   sleep(30)
   @browser.li(:text => /PL2/).click
@@ -172,19 +164,13 @@ end
 
 When(/^user creates prepayment for the order$/) do
   sleep(4)
-  @browser.td(:text => "Cancelled").click
-  sleep(4)
   @browser.span(:text => "Prepayment").click
   sleep(2)
-  @browser.text_field(:id => "prepaidAmount").set("1")
+  @browser.text_field(:id => "prepaidAmount").set("100")
   sleep(2)
   @browser.a(:id => "overPaymentAccountDd").click
   sleep(10)
   @browser.li(:text => /100000 Fixed Asset Account/).click
-  sleep(2)
-  @browser.text_field(:id => "paymentDate").click
-  sleep(10)
-  @browser.a(:text => "1").click
   sleep(2)
   @browser.a(:id => "currencyDd").click
   sleep(2)
@@ -199,6 +185,70 @@ When(/^user creates prepayment for the order$/) do
   sleep(4)
 end
 
+When(/^user checks if the prepayment was done correctly$/) do
+  @browser.tds(:text => "CASH USD").first.visible?
+  @browser.tds(:text => "100.00").first.visible?
+  @browser.tds(:text => "100.00").first.click
+  sleep(10)
+  @browser.span(:text => "Actifile").visible?
+  @browser.span(:text => "$100.00").visible?
+  @browser.span(:text => "CASH USD").visible?
+  @browser.span(:text => "101500 Cash USD").visible?
+  @browser.span(:text => "USD").visible?
+  @browser.span(:text => "Close").click
+end
+
+When (/^user sorts purchase orders in left menu$/) do
+  sleep(10)
+  @browser.a(:id => "sortBy").click
+  sleep(4)
+  @browser.span(:text => "Reference").click
+  sleep(4)
+  @browser.span(:text => "Reference").click
+  sleep(4)
+  @browser.span(:text => "Order Date").click
+  sleep(4)
+  @browser.span(:text => "Order Date").click
+  sleep(4)
+  @browser.span(:text => "Payment Total").click
+  sleep(4)
+  @browser.span(:text => "Payment Total").click
+  sleep(4)
+  @browser.span(:text => "Payment UnTaxed").click
+  sleep(4)
+  @browser.span(:text => "Payment UnTaxed").click
+  sleep(4)
+  @browser.a(:id => "sortBy").click
+  sleep(4)
+end
+
+When (/^user switches for different number of orders in left menu*/) do
+  @browser.a(:text => "25").click
+  sleep(4)
+  @browser.a(:text => "50").click
+  sleep(4)
+  @browser.a(:text => "100").click
+  sleep(4)
+  @browser.a(:text => "200").click
+  sleep(4)
+end
+
+When (/^user sorts purchase orders list$/) do
+  @browser.th(:text => /Reference/).click
+  sleep(4)
+  @browser.th(:text => /Supplier/).click
+  sleep(4)
+  @browser.th(:text => /Received/).click
+  sleep(4)
+  @browser.th(:text => /Status/).click
+  sleep(4)
+  @browser.th(:text => /Untaxed/).click
+  sleep(4)
+  @browser.th(:text => /Total/).click
+  sleep(4)
+  @browser.th(:text => /Order Date/).click
+  sleep(4)
+end
 
 
 
