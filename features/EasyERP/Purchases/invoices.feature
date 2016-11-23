@@ -130,6 +130,7 @@ Feature: Invoices checking
     When user clicks on "Create Payment" button
     When user fill in payment info
     When user clicks Create button
+    Then browser is closing
 
   Scenario: User attach file to invoice
     Given user goes to orders tab
@@ -144,5 +145,5 @@ Feature: Invoices checking
     Then verify that invoices tab is opened
     When user opens created item from the list
     When user attaches file
-
+    Then browser is closing
 
