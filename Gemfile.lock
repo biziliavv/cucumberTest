@@ -38,6 +38,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.1)
     diff-lcs (1.2.5)
     equalizer (0.0.11)
+    extensions (0.6.0)
     faraday (0.9.2)
       multipart-post (>= 1.2, < 3)
     ffi (1.9.14)
@@ -93,6 +94,7 @@ PLATFORMS
 DEPENDENCIES
   allure-cucumber
   cucumber
+  extensions (~> 0.6.0)
   gecko-ruby
   mimemagic (= 0.3.2)
   minitest (~> 5.9.0)
