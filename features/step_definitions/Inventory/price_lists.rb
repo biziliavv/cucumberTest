@@ -93,7 +93,7 @@ end
 
 When(/^user logs in to EasyErp$/) do
   Watir::Wait.until { @browser.title == "Login" }
-  @browser.text_field(:name => "ulogin").set "yana.gusti"
+  @browser.text_field(:name => "uloсячсgin").set "yana.gusti"
   @browser.text_field(:name => "upass").set "thinkmobiles2015"
 
   @browser.span(:class => "selectedDb").click
