@@ -50,7 +50,7 @@ end
 When(/^user click on editing order button$/) do
   sleep(2)
   @browser.button(:class => "editButton btn").click
-  sleep(2)
+  sleep(4)
   @browser.button(:class => "receiveInvoice btn").click
   sleep(2)
 
@@ -103,7 +103,7 @@ end
 When(/^user clicks on Download button$/) do
   sleep(2)
   @browser.button(:id => "exportToPdf").click
-
+  sleep(3)
 
 
 end
@@ -172,8 +172,12 @@ end
 
 When(/^user attaches file$/) do
   sleep(2)
-  fname = File.expand_path('./../../../../attachments/', __FILE__)
-  @browser.file_field.set(fname)
+
+  fname = '/Users/Shared/Jenkins/Home/workspace/Cucumber/attachments/test.png'
+  sleep(6)
+  #@browser.file_field(:name => 'file').existss?
+   @browser.file_field(:id => "inputAttach").set(fname)
+
   sleep(5)
 end
 

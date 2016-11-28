@@ -1,6 +1,6 @@
 require 'watir-webdriver'
 require 'cucumber'
-require 'minitest/autorun'
+
 
 
 Given(/^user opens Products tab$/) do
