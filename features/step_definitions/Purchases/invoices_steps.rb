@@ -103,7 +103,7 @@ end
 When(/^user clicks on Download button$/) do
   sleep(2)
   @browser.button(:id => "exportToPdf").click
-  sleep(5)
+  sleep(3)
 
 
 end
