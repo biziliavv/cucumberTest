@@ -6,6 +6,10 @@ require 'minitest/autorun'
 Given(/^user opens Orders tab$/) do
   Selenium::WebDriver::Chrome.driver_path = '/usr/local/bin/chromedriver'
   @browser = Watir::Browser.new :chrome
+  screen_width = @browser.execute_script("return screen.width;")
+  screen_height = @browser.execute_script("return screen.height;")
+  @browser.driver.manage.window.resize_to(screen_width,screen_height)
+  @browser.driver.manage.window.move_to(0,0)
   @browser.goto "http://testdemo.easyerp.com/#easyErp/purchaseOrders/list"
 end
 
@@ -26,7 +30,7 @@ When(/^user enters all new order information$/) do
   sleep(5)
   @browser.li(:text => /Actifile/).visible?
   @browser.li(:text => /Actifile/).click
-  sleep(1)
+  sleep(4)
   @browser.a(:id => "priceList").click
   sleep(30)
   @browser.li(:text => /PL2/).click
@@ -74,6 +78,7 @@ When(/^user enters all new order information$/) do
 end
 
 When (/^user opens order details page$/) do
+  sleep(8)
   @browser.td(:xpath => ".//*[@id='listTable']/tr[1]/td[2]").click
   sleep(2)
 end
@@ -90,11 +95,11 @@ When (/^user changes the order details$/) do
   @browser.li(:text => /Alex Roman/).click
   sleep(1)
   @browser.text_field(:id => "expectedDate").click
-  sleep(2)
+  sleep(4)
   @browser.a(:text => "1").click
   sleep(4)
   @browser.text_field(:id => "orderDate").click
-  sleep(2)
+  sleep(4)
   @browser.a(:text => "1").click
   sleep(4)
   @browser.a(:id => "account").click
@@ -148,6 +153,7 @@ When (/^user downloads pdf for order$/) do
 end
 
 When (/^user adds and removes the comment to purchase order$/) do
+  sleep(4)
   @browser.span(:text => "+Add Comment").click
   @browser.textarea(:class => "noteText _noteTextarea").set("Test comment.")
   @browser.a(:text => "Save").click
@@ -215,7 +221,7 @@ When (/^user sorts purchase orders in left menu$/) do
   @browser.span(:text => "Payment Total").click
   sleep(4)
   @browser.span(:text => "Payment UnTaxed").click
-  sleep(4)
+  sleep(8)
   @browser.span(:text => "Payment UnTaxed").click
   sleep(4)
   @browser.a(:id => "sortBy").click
@@ -234,6 +240,7 @@ When (/^user switches for different number of orders in left menu*/) do
 end
 
 When (/^user sorts purchase orders list$/) do
+  sleep(4)
   @browser.th(:text => /Reference/).click
   sleep(4)
   @browser.th(:text => /Supplier/).click
@@ -250,7 +257,10 @@ When (/^user sorts purchase orders list$/) do
   sleep(4)
 end
 
+When (/^user receives the inventory for purchase order$/) do
+  @browser.span(:text => "Receive Inventory").click
 
+end
 
 
 
